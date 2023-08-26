@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2022 The awakenOS Project
+# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 SkylineUI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/rhode/device.mk)
 
-# Inherit some common awakenOS stuff.
+# Inherit some common Skyline-UI stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Rom Specific Flags

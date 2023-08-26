@@ -1,5 +1,6 @@
 #
-# Copyright (C) 2022 The awakenOS Project
+# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 SkylineUI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

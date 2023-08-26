@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2019-2023 The LineageOS Project
+# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2022-2023 SkylineUI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
