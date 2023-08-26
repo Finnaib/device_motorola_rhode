@@ -14,12 +14,18 @@ $(call inherit-product, device/motorola/rhode/device.mk)
 # Inherit some common awakenOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Rom Specific Flags
+TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_QUICK_TAP := true
+
+# SkylineUI Maintainer Flags
+SKYLINEUI_MAINTAINER := FINNAIB
+CUSTOM_BUILD_TYPE := COMMUNITY
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_rhode
